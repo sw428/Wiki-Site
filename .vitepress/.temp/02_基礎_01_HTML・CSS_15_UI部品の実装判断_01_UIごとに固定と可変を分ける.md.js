@@ -1,0 +1,19 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"01_UIごとに固定と可変を分ける","description":"","frontmatter":{},"headers":[{"level":2,"title":"最初に分けること","slug":"最初に分けること","link":"#最初に分けること","children":[]},{"level":2,"title":"作りたいUIから選ぶ","slug":"作りたいuiから選ぶ","link":"#作りたいuiから選ぶ","children":[]},{"level":2,"title":"実装後の確認","slug":"実装後の確認","link":"#実装後の確認","children":[]}],"relativePath":"02_基礎/01_HTML・CSS/15_UI部品の実装判断/01_UIごとに固定と可変を分ける.md","filePath":"02_基礎/01_HTML・CSS/15_UI部品の実装判断/01_UIごとに固定と可変を分ける.md"}');
+const _sfc_main = { name: "02_基礎/01_HTML・CSS/15_UI部品の実装判断/01_UIごとに固定と可変を分ける.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="01_uiごとに固定と可変を分ける" tabindex="-1">01_UIごとに固定と可変を分ける <a class="header-anchor" href="#01_uiごとに固定と可変を分ける" aria-label="Permalink to &quot;01_UIごとに固定と可変を分ける&quot;">​</a></h1><p>デザインをHTML/CSSへ落とすときは、最初に「何のUIか」を決める。見た目に近いプロパティを足す前に、崩れてほしくない条件と、内容に合わせて変わってよい部分を分ける。</p><h2 id="最初に分けること" tabindex="-1">最初に分けること <a class="header-anchor" href="#最初に分けること" aria-label="Permalink to &quot;最初に分けること&quot;">​</a></h2><ol><li>何のUIか。</li><li>何を固定したいか。</li><li>何を可変にしたいか。</li><li>親・枠・画像・文字・リンクのどこが責務を持つか。</li></ol><p>「固定する」は、すべてをpxで固めるという意味ではない。</p><h2 id="作りたいuiから選ぶ" tabindex="-1">作りたいUIから選ぶ <a class="header-anchor" href="#作りたいuiから選ぶ" aria-label="Permalink to &quot;作りたいUIから選ぶ&quot;">​</a></h2><table tabindex="0"><thead><tr><th>UI</th><th>最初の疑問</th><th>確認先</th></tr></thead><tbody><tr><td>画像</td><td>自然比率か表示枠か</td><td><a href="./02_画像を自然比率か表示枠へ収めるか選ぶ.html">画像を自然比率か表示枠へ収めるか選ぶ</a></td></tr><tr><td>一覧</td><td>間隔か区切り線か</td><td><a href="./03_反復一覧の間隔と区切り線を分ける.html">反復一覧の間隔と区切り線を分ける</a></td></tr><tr><td>ステップ</td><td>順序か装飾番号か</td><td><a href="./04_ステップ番号をHTMLとCSSで分ける.html">ステップ番号をHTMLとCSSで分ける</a></td></tr><tr><td>バナー</td><td>完成画像・重ね配置・背景画像のどれか</td><td><a href="./05_バナーの実装方法を選ぶ.html">バナーの実装方法を選ぶ</a></td></tr><tr><td>カード</td><td>一覧とカード内部のどこが何を担当するか</td><td><a href="./06_カード一覧とカード内部の責務を分ける.html">カード一覧とカード内部の責務を分ける</a></td></tr><tr><td>カード</td><td>文字量が違っても末尾をそろえるか</td><td><a href="./07_カードの可変本文と下寄せ要素を両立する.html">カードの可変本文と下寄せ要素を両立する</a></td></tr><tr><td>人物写真</td><td>同じ形の枠へ収めるか</td><td><a href="./08_人物写真を同じ枠へ収める.html">人物写真を同じ枠へ収める</a></td></tr><tr><td>CTA・ナビ</td><td>どこまで押せるか</td><td><a href="./09_CTAとナビリンクの操作範囲を作る.html">CTAとナビリンクの操作範囲を作る</a></td></tr><tr><td>ボタン</td><td>同じ部品か差分か</td><td><a href="./10_同じボタンを共通部品か差分として扱う.html">同じボタンを共通部品か差分として扱う</a></td></tr><tr><td>MV</td><td>高さをどう作るか</td><td><a href="./11_MVの表示領域を作る.html">MVの表示領域を作る</a></td></tr><tr><td>iframe</td><td>外部コンテンツの領域をどう作るか</td><td><a href="./12_iframeの表示領域を作る.html">iframeの表示領域を作る</a></td></tr><tr><td>アイコン</td><td>疑似要素か実要素か</td><td><a href="./13_装飾アイコンを疑似要素か実要素で作る.html">装飾アイコンを疑似要素か実要素で作る</a></td></tr><tr><td>ラベル</td><td>小さな意味表示をどう作るか</td><td><a href="./14_ラベルを小さな意味表示として作る.html">ラベルを小さな意味表示として作る</a></td></tr><tr><td>SPヘッダー</td><td>通常フローか重ね配置か</td><td><a href="./15_SPヘッダーを通常フローか重ね配置か選ぶ.html">SPヘッダーを通常フローか重ね配置か選ぶ</a></td></tr></tbody></table><h2 id="実装後の確認" tabindex="-1">実装後の確認 <a class="header-anchor" href="#実装後の確認" aria-label="Permalink to &quot;実装後の確認&quot;">​</a></h2><p>文字量、画像、項目数、画面幅を1条件ずつ変える。仕組み自体が分からなければ09〜14章へ戻る。</p></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("02_基礎/01_HTML・CSS/15_UI部品の実装判断/01_UIごとに固定と可変を分ける.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const _01_UI____________ = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  _01_UI____________ as default
+};

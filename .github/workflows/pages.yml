@@ -1,0 +1,80 @@
+name: Sync Wiki and deploy Pages
+on:
+  push:
+    branches: [main]
+  repository_dispatch:
+    types: [wiki-updated]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: wiki-site-production
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: read
+    defaults:
+      run:
+        working-directory: site-repo
+    steps:
+      - name: Check out site default branch
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          path: site-repo
+      - name: Read latest Wiki main (never write back)
+        uses: actions/checkout@v6
+        with:
+          repository: ${{ vars.WIKI_REPOSITORY || 'sw428/wiki' }}
+          ref: ${{ vars.WIKI_BRANCH || 'main' }}
+          path: wiki-source
+          token: ${{ secrets.WIKI_READ_TOKEN || github.token }}
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: site-repo/package-lock.json
+      - run: npm ci
+      - run: npm test
+      - name: Configure Pages (enable GitHub Actions in Settings first)
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Sync, verify and build
+        env:
+          SITE_BASE: ${{ steps.pages.outputs.base_path }}/
+        run: npm run build -- --source ../wiki-source
+      - name: Record source revision
+        env:
+          WIKI_REPOSITORY: ${{ vars.WIKI_REPOSITORY || 'sw428/wiki' }}
+        run: node scripts/provenance.mjs --source ../wiki-source
+      - name: Commit only validated public content
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- docs sync-manifest.json source-state.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Sync public Wiki content"
+            git push origin HEAD:main
+          fi
+      - name: Upload verified static site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site-repo/site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+      actions: read
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy the artifact built in this workflow
+        id: deployment
+        uses: actions/deploy-pages@v4

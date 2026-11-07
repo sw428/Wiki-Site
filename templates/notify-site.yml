@@ -1,0 +1,21 @@
+name: Notify Wiki-Site
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions: {}
+concurrency:
+  group: notify-wiki-site
+  cancel-in-progress: false
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start the site sync workflow
+        env:
+          GH_TOKEN: ${{ secrets.SITE_DISPATCH_TOKEN }}
+          SITE_REPOSITORY: ${{ vars.SITE_REPOSITORY }}
+        run: |
+          test -n "$GH_TOKEN" || { echo 'Set SITE_DISPATCH_TOKEN'; exit 1; }
+          test -n "$SITE_REPOSITORY" || { echo 'Set SITE_REPOSITORY (owner/Wiki-Site)'; exit 1; }
+          gh api --method POST "repos/$SITE_REPOSITORY/dispatches" -f event_type=wiki-updated

@@ -1,0 +1,19 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"05_background-imageとmask-imageを区別する","description":"","frontmatter":{},"headers":[{"level":2,"title":"背景とマスクの役割を分ける","slug":"背景とマスクの役割を分ける","link":"#背景とマスクの役割を分ける","children":[]},{"level":2,"title":"mask関連プロパティを対応させる","slug":"mask関連プロパティを対応させる","link":"#mask関連プロパティを対応させる","children":[]},{"level":2,"title":"mask-imageを選ぶ判断","slug":"mask-imageを選ぶ判断","link":"#mask-imageを選ぶ判断","children":[]}],"relativePath":"02_基礎/01_HTML・CSS/10_画像と背景/05_background-imageとmask-imageを区別する.md","filePath":"02_基礎/01_HTML・CSS/10_画像と背景/05_background-imageとmask-imageを区別する.md"}');
+const _sfc_main = { name: "02_基礎/01_HTML・CSS/10_画像と背景/05_background-imageとmask-imageを区別する.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="05_background-imageとmask-imageを区別する" tabindex="-1">05_background-imageとmask-imageを区別する <a class="header-anchor" href="#05_background-imageとmask-imageを区別する" aria-label="Permalink to &quot;05_background-imageとmask-imageを区別する&quot;">​</a></h1><p><code>background-image</code> は要素の背景に何を描くかを決める。<code>mask-image</code> は、要素とその内容のどの部分を見せるかを決める。</p><h2 id="背景とマスクの役割を分ける" tabindex="-1">背景とマスクの役割を分ける <a class="header-anchor" href="#背景とマスクの役割を分ける" aria-label="Permalink to &quot;背景とマスクの役割を分ける&quot;">​</a></h2><table tabindex="0"><thead><tr><th>観点</th><th><code>background-image</code></th><th><code>mask-image</code></th></tr></thead><tbody><tr><td>主な役割</td><td>背景として画像を描く</td><td>要素全体の見える範囲を決める</td></tr><tr><td>表示する色・内容</td><td>背景画像が持つ</td><td>マスクされる要素側が持つ</td></tr><tr><td>よく使う場面</td><td>写真背景、模様</td><td>単色アイコン、形抜き、フェード</td></tr><tr><td>HTML上の意味</td><td>追加しない</td><td>追加しない</td></tr><tr><td>必要なもの</td><td>描画先のbox</td><td>面積に加え、マスク越しに見せる背景や内容</td></tr></tbody></table><p>CSS画像をマスクにした場合、通常は画像のalpha値が見える量に使われる。色の白黒を直接使いたいなど、luminanceとして解釈する必要がある場合は <code>mask-mode</code> も確認する。</p><h2 id="mask関連プロパティを対応させる" tabindex="-1">mask関連プロパティを対応させる <a class="header-anchor" href="#mask関連プロパティを対応させる" aria-label="Permalink to &quot;mask関連プロパティを対応させる&quot;">​</a></h2><ul><li><code>mask-image</code>: 使用する画像またはグラデーション</li><li><code>mask-size</code>: マスク画像の大きさ</li><li><code>mask-position</code>: マスク画像の位置</li><li><code>mask-repeat</code>: マスク画像を繰り返すか</li><li><code>mask-mode</code>: alphaとluminanceのどちらで解釈するか</li></ul><p>複数のmaskレイヤーを書く場合は、各プロパティのカンマ区切りの順序を対応させる。<code>mask-image</code> が <code>none</code> 以外になるとstacking contextも作られるため、重なり順が変わった場合は <code>z-index</code> と祖先のstacking contextを確認する。</p><h2 id="mask-imageを選ぶ判断" tabindex="-1">mask-imageを選ぶ判断 <a class="header-anchor" href="#mask-imageを選ぶ判断" aria-label="Permalink to &quot;mask-imageを選ぶ判断&quot;">​</a></h2><ul><li>単色アイコンの形だけを借り、色をCSSで変える: 候補</li><li>画像や要素の端を徐々に透明にする: 候補</li><li>写真や商品画像をそのまま見せる: <code>img</code> または <code>background-image</code></li><li>写真を決めた枠へ収める: <code>object-fit</code>、<code>aspect-ratio</code>、<code>background-size</code></li><li>HTML上の意味を伝える: テキスト、<code>img</code> とalt、操作要素のアクセシブルネーム</li></ul><p><code>mask-image</code> は画像を縮小したり、画像ファイルを別形式へ変えたりする指定ではない。「何を表示するか」と「どこを見せるか」を分ける。</p><p>単色アイコンの実装は<a href="./06_mask-imageで単色アイコンを作る.html">mask-imageで単色アイコンを作る</a>、グラデーションによる透明化は<a href="./07_mask-imageで要素の端をフェードさせる.html">mask-imageで要素の端をフェードさせる</a>で確認する。</p></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("02_基礎/01_HTML・CSS/10_画像と背景/05_background-imageとmask-imageを区別する.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const _05_backgroundImage_maskImage_____ = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  _05_backgroundImage_maskImage_____ as default
+};

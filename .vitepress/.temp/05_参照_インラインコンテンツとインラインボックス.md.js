@@ -1,0 +1,19 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"インラインコンテンツとインラインボックス","description":"","frontmatter":{},"headers":[{"level":2,"title":"目的","slug":"目的","link":"#目的","children":[]},{"level":2,"title":"ルール","slug":"ルール","link":"#ルール","children":[]},{"level":2,"title":"例","slug":"例","link":"#例","children":[]},{"level":2,"title":"判断基準","slug":"判断基準","link":"#判断基準","children":[]},{"level":2,"title":"関連ページ","slug":"関連ページ","link":"#関連ページ","children":[]}],"relativePath":"05_参照/インラインコンテンツとインラインボックス.md","filePath":"05_参照/インラインコンテンツとインラインボックス.md"}');
+const _sfc_main = { name: "05_参照/インラインコンテンツとインラインボックス.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="インラインコンテンツとインラインボックス" tabindex="-1">インラインコンテンツとインラインボックス <a class="header-anchor" href="#インラインコンテンツとインラインボックス" aria-label="Permalink to &quot;インラインコンテンツとインラインボックス&quot;">​</a></h1><h2 id="目的" tabindex="-1">目的 <a class="header-anchor" href="#目的" aria-label="Permalink to &quot;目的&quot;">​</a></h2><ul><li>「inline と text は同じか？」を分離し、行内ズレの調査起点を揃える。</li></ul><h2 id="ルール" tabindex="-1">ルール <a class="header-anchor" href="#ルール" aria-label="Permalink to &quot;ルール&quot;">​</a></h2><ul><li>インライン文脈では、文字・<code>img</code>・<code>inline-block</code> などが同じ行（line box）に並ぶ。</li><li>テキストノードは要素ではないため、要素ボックスそのものとは別扱い。</li><li>要素（<code>span</code> など）はインラインボックスを生成し、テキストはその文脈で描画される。</li></ul><h2 id="例" tabindex="-1">例 <a class="header-anchor" href="#例" aria-label="Permalink to &quot;例&quot;">​</a></h2><div class="language-html vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">html</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">p</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;&lt;</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">span</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;"> class</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">=</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;badge&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;New&lt;/</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">span</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt; テキスト&lt;/</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">p</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;</span></span></code></pre></div><ul><li><code>span.badge</code> は要素ボックスとして扱える。</li><li>右側の「テキスト」は要素ではなく、行内コンテンツとして配置される。</li></ul><h2 id="判断基準" tabindex="-1">判断基準 <a class="header-anchor" href="#判断基準" aria-label="Permalink to &quot;判断基準&quot;">​</a></h2><ol><li>問題対象は要素ボックスか、テキスト描画か</li><li><code>display</code> の外側文脈は inline か block か</li><li>ずれは <code>line-height</code> / <code>vertical-align</code> / baseline 由来か</li></ol><h2 id="関連ページ" tabindex="-1">関連ページ <a class="header-anchor" href="#関連ページ" aria-label="Permalink to &quot;関連ページ&quot;">​</a></h2><ul><li><a href="./../02_基礎/01_HTML・CSS/08_インラインと行の仕組み/01_文字の行間と高さを確認する.html">インラインと行の仕組み</a></li><li><a href="./../02_基礎/01_HTML・CSS/09_レイアウト/01_レイアウトで調整したいことから読む.html">レイアウト</a></li></ul></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("05_参照/インラインコンテンツとインラインボックス.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const ____________________ = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  ____________________ as default
+};

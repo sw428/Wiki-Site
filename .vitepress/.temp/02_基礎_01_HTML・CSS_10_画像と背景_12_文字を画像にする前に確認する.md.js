@@ -1,0 +1,19 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"12_文字を画像にする前に確認する","description":"","frontmatter":{},"headers":[{"level":2,"title":"ページの役割はHTMLへ残す","slug":"ページの役割はhtmlへ残す","link":"#ページの役割はhtmlへ残す","children":[]},{"level":2,"title":"LPかどうかだけで決めない","slug":"lpかどうかだけで決めない","link":"#lpかどうかだけで決めない","children":[]},{"level":2,"title":"画像にする前の判断順","slug":"画像にする前の判断順","link":"#画像にする前の判断順","children":[]},{"level":2,"title":"確認先","slug":"確認先","link":"#確認先","children":[]}],"relativePath":"02_基礎/01_HTML・CSS/10_画像と背景/12_文字を画像にする前に確認する.md","filePath":"02_基礎/01_HTML・CSS/10_画像と背景/12_文字を画像にする前に確認する.md"}');
+const _sfc_main = { name: "02_基礎/01_HTML・CSS/10_画像と背景/12_文字を画像にする前に確認する.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="12_文字を画像にする前に確認する" tabindex="-1">12_文字を画像にする前に確認する <a class="header-anchor" href="#12_文字を画像にする前に確認する" aria-label="Permalink to &quot;12_文字を画像にする前に確認する&quot;">​</a></h1><p>ロゴや固定図版では文字をアウトライン化したSVGが必要な場合がある。一方、見出し・本文・一覧・リンク・ボタンは、HTMLで意味・操作・更新を扱う必要があるかを先に確認する。</p><h2 id="ページの役割はhtmlへ残す" tabindex="-1">ページの役割はHTMLへ残す <a class="header-anchor" href="#ページの役割はhtmlへ残す" aria-label="Permalink to &quot;ページの役割はHTMLへ残す&quot;">​</a></h2><ul><li>HTMLへ残す: 見出し階層、本文、一覧、リンク先、ボタンやフォームの操作</li><li>SVGや画像を候補にする: ロゴ、アイコン、固定図版、見た目そのものが内容になる表現</li><li>CSSへ任せる: 背景、余白、単純な線や形、レスポンシブ配置</li></ul><p>SVGを <code>img</code> で読み込んだ場合、内部に文字の形が見えても、HTMLの見出し・段落・一覧・リンクとしてページ構造へ置いたことにはならない。変更、折り返し、読み上げ、選択、操作が必要な内容はHTMLを優先する。</p><h2 id="lpかどうかだけで決めない" tabindex="-1">LPかどうかだけで決めない <a class="header-anchor" href="#lpかどうかだけで決めない" aria-label="Permalink to &quot;LPかどうかだけで決めない&quot;">​</a></h2><p>LPにも広告からの流入を主に受けるもの、検索や継続的な情報提供を重視するものがある。「LPなら文字を画像にしてよい」「LPならSEOを考えなくてよい」と一括りにしない。</p><table tabindex="0"><thead><tr><th>観点</th><th>HTMLテキスト・要素を優先する理由</th><th>画像・SVGを候補にする場面</th></tr></thead><tbody><tr><td>意味・検索</td><td>文書構造と周辺文脈をDOMへ残せる</td><td>ロゴや固定図版など、見た目自体が内容の一部</td></tr><tr><td>アクセシビリティ</td><td>文字拡大、色変更、読み上げへ対応しやすい</td><td>同等の内容をaltや周囲のHTMLで伝えられる固定表現</td></tr><tr><td>操作</td><td>リンク、ボタン、フォームを通常のHTML要素として持てる</td><td>操作を持たない装飾・図版</td></tr><tr><td>レスポンシブ</td><td>折り返しや部分的な配置変更がしやすい</td><td>常に一体で拡大縮小する部品</td></tr><tr><td>更新・保守</td><td>文言や構造を部分的に直せる</td><td>更新頻度が低く、表現を固定したい部品</td></tr><tr><td>案件仕様</td><td>意味と操作を保ちながら実装方法を選べる</td><td>指定フォントや支給アウトライン素材を使う部品</td></tr></tbody></table><p>案件仕様でアウトラインSVGを使う場合も、条件は対象部品へ適用する。ページ全体を一枚の画像へまとめる根拠にはしない。</p><h2 id="画像にする前の判断順" tabindex="-1">画像にする前の判断順 <a class="header-anchor" href="#画像にする前の判断順" aria-label="Permalink to &quot;画像にする前の判断順&quot;">​</a></h2><ol><li>ロゴ・固定図版か、見出し・本文・操作名かを確認する。</li><li>HTMLの実テキストでは満たせない条件を明確にする。</li><li>文言変更、折り返し、文字拡大へ対応する必要があるか確認する。</li><li>リンクやボタンなどの操作を含むか確認する。</li><li>画像がなくても同じ意味と操作を伝えられるか確認する。</li><li>画像にする場合、素材を誰がどの方法で更新するか決める。</li></ol><p>画像化した文字の代替テキストは<a href="./13_アウトライン文字のaltを決める.html">アウトライン文字のaltを決める</a>、意味に合うHTML要素は<a href="./../04_HTMLの意味と構造/01_意味からHTML要素を選ぶ.html">意味からHTML要素を選ぶ</a>で確認する。</p><h2 id="確認先" tabindex="-1">確認先 <a class="header-anchor" href="#確認先" aria-label="Permalink to &quot;確認先&quot;">​</a></h2><ul><li><a href="https://www.w3.org/WAI/tutorials/images/textual/" target="_blank" rel="noreferrer">W3C WAI: Images of Text</a></li></ul></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("02_基礎/01_HTML・CSS/10_画像と背景/12_文字を画像にする前に確認する.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const _12_______________ = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  _12_______________ as default
+};

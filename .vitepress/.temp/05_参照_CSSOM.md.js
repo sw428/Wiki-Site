@@ -1,0 +1,32 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"CSSOM","description":"","frontmatter":{},"headers":[{"level":2,"title":"読み方","slug":"読み方","link":"#読み方","children":[]},{"level":2,"title":"定義","slug":"定義","link":"#定義","children":[]},{"level":2,"title":"ここを見る理由","slug":"ここを見る理由","link":"#ここを見る理由","children":[]},{"level":2,"title":"一瞬イメージ","slug":"一瞬イメージ","link":"#一瞬イメージ","children":[]},{"level":2,"title":"重要ポイント","slug":"重要ポイント","link":"#重要ポイント","children":[]},{"level":2,"title":"関連ノート","slug":"関連ノート","link":"#関連ノート","children":[]},{"level":2,"title":"仕様確認先","slug":"仕様確認先","link":"#仕様確認先","children":[]}],"relativePath":"05_参照/CSSOM.md","filePath":"05_参照/CSSOM.md"}');
+const _sfc_main = { name: "05_参照/CSSOM.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="cssom" tabindex="-1">CSSOM <a class="header-anchor" href="#cssom" aria-label="Permalink to &quot;CSSOM&quot;">​</a></h1><h2 id="読み方" tabindex="-1">読み方 <a class="header-anchor" href="#読み方" aria-label="Permalink to &quot;読み方&quot;">​</a></h2><ul><li>シーエスエスオーエム</li></ul><h2 id="定義" tabindex="-1">定義 <a class="header-anchor" href="#定義" aria-label="Permalink to &quot;定義&quot;">​</a></h2><ul><li>CSSのスタイルシートやルールを、ブラウザから参照・操作できるオブジェクトとして表したもの。</li><li>CSSファイルの文字列そのものでも、各要素の最終表示寸法を直接持つレイアウト結果でもない。</li></ul><h2 id="ここを見る理由" tabindex="-1">ここを見る理由 <a class="header-anchor" href="#ここを見る理由" aria-label="Permalink to &quot;ここを見る理由&quot;">​</a></h2><ul><li>CSSが「書いた文字列」から、スタイルシートやルールとして扱われる段階を分けて見るため。</li><li><code>display</code>、<code>width</code>、<code>padding</code> などの指定が、すぐ画面上の位置や大きさになるわけではないと理解するため。</li><li>CSSルールから、セレクタの一致、カスケード、継承、box tree生成、Layout / Paintへ進む流れを追うため。</li></ul><h2 id="一瞬イメージ" tabindex="-1">一瞬イメージ <a class="header-anchor" href="#一瞬イメージ" aria-label="Permalink to &quot;一瞬イメージ&quot;">​</a></h2><p>CSSが見た目の指示書だとしたら、CSSOMはスタイルシートやルールをブラウザから扱うための整理された窓口。</p><div class="language-txt vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">txt</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>CSS</span></span>
+<span class="line"><span>-&gt; CSSルールとして解析される</span></span>
+<span class="line"><span>-&gt; CSSOMのオブジェクトとして参照・操作できる</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>要素ツリー + CSSルール</span></span>
+<span class="line"><span>-&gt; セレクタの一致、cascade / inheritance</span></span>
+<span class="line"><span>-&gt; 各プロパティのcomputed valueが決まる</span></span></code></pre></div><div class="language-css vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">css</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">.box</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> {</span></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">  display</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">block</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">  width</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">100</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">%</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">  padding</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">20</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">px</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">}</span></span></code></pre></div><p>スタイルシート内では、ざっくり次のようなルールとして扱われる。</p><div class="language-txt vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">txt</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>.box には</span></span>
+<span class="line"><span>- display: block</span></span>
+<span class="line"><span>- width: 100%</span></span>
+<span class="line"><span>- padding: 20px</span></span></code></pre></div><h2 id="重要ポイント" tabindex="-1">重要ポイント <a class="header-anchor" href="#重要ポイント" aria-label="Permalink to &quot;重要ポイント&quot;">​</a></h2><ul><li>CSSOMはCSSから作られる。</li><li>スタイルシート、CSSルール、宣言ブロックなどをオブジェクトとして扱える。</li><li>どのルールが各要素へ適用されるかは、セレクタの一致、カスケード、継承を通して決まる。</li><li><code>display</code>、<code>width</code>、<code>height</code>、<code>padding</code>、<code>box-sizing</code> などの計算値が決まっても、最終的な画面上の大きさ・位置はまだ確定していない場合がある。</li><li>計算値をもとにbox treeが生成され、Layout / Paintへ進む。</li></ul><h2 id="関連ノート" tabindex="-1">関連ノート <a class="header-anchor" href="#関連ノート" aria-label="Permalink to &quot;関連ノート&quot;">​</a></h2><ul><li><a href="./DOM.html">DOM</a></li><li><a href="./状態変化.html">状態変化</a></li><li><a href="./CSS適用境界.html">CSS適用境界</a></li><li><a href="./状態変化（DOM→CSSOM→Layout→Paint）.html">状態変化（DOM→CSSOM→Layout→Paint）</a></li><li><a href="./../02_基礎/01_HTML・CSS/05_ボックスとdisplay/01_ボックスとdisplayの読み方.html">ボックスとdisplay</a></li></ul><h2 id="仕様確認先" tabindex="-1">仕様確認先 <a class="header-anchor" href="#仕様確認先" aria-label="Permalink to &quot;仕様確認先&quot;">​</a></h2><ul><li><a href="https://drafts.csswg.org/cssom-1/" target="_blank" rel="noreferrer">CSS Object Model (CSSOM) Module Level 1</a></li><li><a href="https://drafts.csswg.org/css-display-3/#intro" target="_blank" rel="noreferrer">CSS Display Module Level 3 - Introduction</a></li></ul></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("05_参照/CSSOM.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const CSSOM = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  CSSOM as default
+};

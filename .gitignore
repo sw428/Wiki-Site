@@ -1,0 +1,6 @@
+node_modules/
+site/
+.vitepress/cache/
+.local/
+source/
+local.json

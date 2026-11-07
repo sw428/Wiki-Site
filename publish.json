@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "article_roots": [
+    "01_導入/01_HTML・CSS",
+    "02_基礎/01_HTML・CSS",
+    "03_詳細/01_HTML・CSS"
+  ],
+  "reference_roots": [
+    "05_参照"
+  ],
+  "asset_roots": [
+    "img/html-css"
+  ],
+  "asset_extensions": [
+    ".svg",
+    ".png",
+    ".jpg",
+    ".jpeg",
+    ".webp",
+    ".gif",
+    ".avif"
+  ],
+  "deny_components": [
+    "スニペット",
+    "非公開",
+    "下書き"
+  ],
+  "deny_prefixes": [
+    ".",
+    "00_",
+    "90_"
+  ],
+  "deny_files": [
+    "AGENTS.md",
+    "CURRENT.md",
+    "CHANGELOG.md",
+    "README.md",
+    "参照元インデックス.md"
+  ],
+  "exclude": []
+}
