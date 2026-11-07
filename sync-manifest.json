@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "article_count": 205,
-  "asset_count": 60,
+  "article_count": 203,
+  "asset_count": 59,
   "files": {
     "01_導入/01_HTML・CSS/05_ボックスとdisplay/01_widthが箱ごとに決まる流れ.md": "49a1438bd4c03ceb819ff9f0cba7ff21aa3e4f679ad8076834f9ac6e8126e7e6",
     "01_導入/01_HTML・CSS/05_ボックスとdisplay/02_marginとpaddingの違い.md": "ce5592735b4bd8edfdd469b659464a4008bc9c681204dd3c090e4d85688c0af1",
@@ -55,7 +55,7 @@
     "02_基礎/01_HTML・CSS/04_HTMLの意味と構造/08_footerの担当範囲を決める.md": "4ff0895ca231a7646c9f5a35dbe41739313ca840d0d02600daf95660a1bcbca1",
     "02_基礎/01_HTML・CSS/04_HTMLの意味と構造/09_見出し階層を決める.md": "fcfe2468b95e14b7f062a7901acaacd19ae84ce5d63e5763c40b41943a94f04e",
     "02_基礎/01_HTML・CSS/04_HTMLの意味と構造/10_リンクとボタンを使い分ける.md": "a7989971df6d14a64ce73c21a3c9601f2a68f9534d763f1a6f0eece2d8dcd032",
-    "02_基礎/01_HTML・CSS/04_HTMLの意味と構造/11_一覧をul・ol・liで組む.md": "ee6c1cf10ebe7dc5d7cc0713ad055ce9c57e803dbf5df57bc3d98127f0d6392f",
+    "02_基礎/01_HTML・CSS/04_HTMLの意味と構造/11_一覧をul・ol・liで組む.md": "016f807cfa85ebbc518be2bb906951e0e7f18777381b864c97b66b950ab7a9a9",
     "02_基礎/01_HTML・CSS/04_HTMLの意味と構造/12_カード1件のHTMLを決める.md": "0a86cbc7437702b9472c9bebd4e7a8d3d031471abc5503101332c6fcc909b802",
     "02_基礎/01_HTML・CSS/04_HTMLの意味と構造/13_パンくずをHTMLで組む.md": "8afd1213326829ebba7da4b2f22c2178708d8c86a41efdad8fcbefdd5b441f74",
     "02_基礎/01_HTML・CSS/04_HTMLの意味と構造/14_バナー一覧をHTMLで組む.md": "325b96fbe2ec3ff435bf16d920346c40da98dcac328f5c936131b72bcdf5c6ca",
@@ -74,7 +74,7 @@
     "02_基礎/01_HTML・CSS/05_ボックスとdisplay/08_パーセント指定と包含ブロック.md": "da140264ac75c10dcfbba2cd6ea5cffba7371d966f9046321432b1c4c0d088f7",
     "02_基礎/01_HTML・CSS/05_ボックスとdisplay/09_widthのautoと100パーセントを比べる.md": "a4b9fe689b92f3f0e3740cf3e97e9cc71a3073454ffc18c12f9675536fddbad2",
     "02_基礎/01_HTML・CSS/05_ボックスとdisplay/10_DOM上の親と包含ブロックを区別する.md": "51653cff4eed85f6120e66462be98053679b94aa610001436187e2d5add081fc",
-    "02_基礎/01_HTML・CSS/05_ボックスとdisplay/11_heightのパーセントが効く条件.md": "f0083a34e49ffba7dd34dabcb73e1257ef0e1855232e36744a98353cdc93322c",
+    "02_基礎/01_HTML・CSS/05_ボックスとdisplay/11_heightのパーセントが効く条件.md": "92a53bc969e217e211402fc4bd321ba60decfd28b7302630d23e8c2274c8bb3f",
     "02_基礎/01_HTML・CSS/05_ボックスとdisplay/12_箱の大きさが予想と違うときの確認順.md": "7e7e79db0ed90ad6e51e852a132cd427fa31e5d957469c791d18476f5eab4bcf",
     "02_基礎/01_HTML・CSS/05_ボックスとdisplay/13_既定の余白をどこまで消すか決める.md": "a888b3a832ee10e9bb108f43e3d4a52609e6b8853be933e879d9d4d19808414e",
     "02_基礎/01_HTML・CSS/05_ボックスとdisplay/14_リストの既定表示を整える.md": "d0859c4d4043807b442ae4177dafba95fef1c6154e296a2c9222671de9288427",
@@ -97,29 +97,27 @@
     "02_基礎/01_HTML・CSS/08_インラインと行の仕組み/04_ベースラインと見た目のずれ.md": "dc8edbb01d5b4b7bcb37ae46dad80d77b28b457ea3428349171c2f3acd966bcf",
     "02_基礎/01_HTML・CSS/08_インラインと行の仕組み/05_HTMLの空白とCSSの間隔を区別する.md": "9e0b89a603424ad3f13f240d2a6ccf69d822bd00f0c8b62c6efaf65f882928bc",
     "02_基礎/01_HTML・CSS/08_インラインと行の仕組み/06_文字と要素の箱を中央に寄せる.md": "224bb7ac0fcff9c2f1d72f6b9549723dac60c246ee0cfdbc6e330e4e7ce1bac9",
-    "02_基礎/01_HTML・CSS/09_レイアウト/01_レイアウトで調整したいことから読む.md": "31307e61d2d90de74a90b12af42034773a7bdb99a8afced6dc5c956bc3c19f10",
-    "02_基礎/01_HTML・CSS/09_レイアウト/02_配置の基本/01_配置の基本で確認したいことから読む.md": "aae6c24598b28d5dfb0ff23378d2b55bfb3d5f70c29e5aa15b0bac46de48baab",
-    "02_基礎/01_HTML・CSS/09_レイアウト/02_配置の基本/02_通常フローを基準にする.md": "fa9a5969c4e72182f7e7e63a76d0f58d1d09fc22ce6d8064078006ed1930339a",
-    "02_基礎/01_HTML・CSS/09_レイアウト/02_配置の基本/03_FlexとGridで直下の子を並べる.md": "0a063cd5455232e8fb0085ba0f2015f417b90568c9aca801c5e27cc94407df41",
-    "02_基礎/01_HTML・CSS/09_レイアウト/02_配置の基本/04_親子のレイアウト文脈を区別する.md": "f19507089dba86454a622fd5a8c67c36b3abd58ef4eb4b0a592c9e5027ca58e9",
-    "02_基礎/01_HTML・CSS/09_レイアウト/02_配置の基本/05_コンテンツの最大幅と左右余白を作る.md": "239bfe5cb330b4651a9ad42d95ab7b982a5523630997981d8294e70a82b89c8d",
-    "02_基礎/01_HTML・CSS/09_レイアウト/02_配置の基本/06_gapとmarginとpaddingを使い分ける.md": "aba5294f3e2e6b87981df28b373ec2192df97cca39acd789105008ba12858306",
-    "02_基礎/01_HTML・CSS/09_レイアウト/02_配置の基本/07_marginの相殺が起きる場所を確認する.md": "0bd1cc498d07e910c9bfa82bcdc6f65d1dac91102080e57aaa71cea3c09c68b5",
-    "02_基礎/01_HTML・CSS/09_レイアウト/03_Flex/01_Flexで調整したいことから読む.md": "a438267369da439601a993fa6be67fb3f475464ed31986606bc3e7e70eafa0b5",
-    "02_基礎/01_HTML・CSS/09_レイアウト/03_Flex/02_Flexで子の位置を揃える.md": "639fb32943437b4530e37d2876cb36d63da237e883f242a8da20b1a427dcbc6e",
-    "02_基礎/01_HTML・CSS/09_レイアウト/03_Flex/03_Flexで固定幅と可変幅を組み合わせる.md": "d701d57fa5794cb97b4b65fa099e68f7bb8f74bd9f792d536ce704bb109ef34d",
-    "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/01_Gridはどんなレイアウトで使う.md": "27651c3e7566f871c2b3fcb5176b0a0f860d57bc1bb2eafda3c442e187b72737",
-    "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/02_子要素を2列・3列に並べるには.md": "a6cdbaf35c5b68a2f7d32fe0003f3ada28cf47243924636266a555b20fa409a5",
-    "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/03_frで列幅はどう決まる.md": "a431b29d0d721b2d12e9589ce8527d58881d4bfe6ea97492c5736a4c978a1f12",
-    "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/04_1frなのに列が広がるのはなぜ.md": "d9f70554040d531619d87d33360f1f77abbe45257a5a5c22dc3cae58a2668a69",
-    "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/05_列数を自動変更するには.md": "f8c60600e34b7bb66bf7a2c80ae6f3b6a9363dd3e1a49d8b2fec7a2acb6c0088",
-    "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/06_auto-fitとauto-fillの違い.md": "18336087bd9e40387f0780a4f7cd67ebb094d51f6cb5c0c75ee5450190db3428",
-    "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/07_行の高さはどう決まる.md": "63cbaec9497f263492963044247a64be5a50a14f9b8489024cba5c1407e0ea1b",
-    "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/08_子要素を指定位置に配置するには.md": "24353f39cbe8a4a2f208aef78c34f1b29d0db89fc42b759cb6ea3d51a9965c4e",
-    "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/09_子要素を上下左右に揃えるには.md": "35971605bd5691722875b1c835eed6e6130b32581bb93c3be9bc0a7b879a80fb",
-    "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/10_列幅と子要素のサイズの違い.md": "fe45ebd55f6378b2e159b4664b153711fa75c0fe85e94439535578f6b88d2ed6",
-    "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/11_Gridが想定どおりに並ばない原因.md": "a44cdb581413162d763a756ab5a4fc5d51da19525c8192fbf1fd67c922b18836",
-    "02_基礎/01_HTML・CSS/09_レイアウト/05_配置が成立する幅でブレークポイントを決める.md": "6e50e822e3ba762e42bb570e3a8354d3c6f1288d3c0a42f3e5e1e7dab77ebdb7",
+    "02_基礎/01_HTML・CSS/09_レイアウト/01_レイアウトで調整したいことから読む.md": "2bdaab8f350cf4408e6a13e1197418ed37562caf15660acb7810ef0202a2e219",
+    "02_基礎/01_HTML・CSS/09_レイアウト/02_通常フローを基準にする.md": "6fb8b8ed4d8ded1a2275ecb004544be964e198d9f238187bbec09a62078a2545",
+    "02_基礎/01_HTML・CSS/09_レイアウト/03_FlexとGridで直下の子を並べる.md": "0a063cd5455232e8fb0085ba0f2015f417b90568c9aca801c5e27cc94407df41",
+    "02_基礎/01_HTML・CSS/09_レイアウト/04_親子のレイアウト文脈を区別する.md": "fb9d794919aff2691469894f755b7a7044878a22301ad95dce81254221265e92",
+    "02_基礎/01_HTML・CSS/09_レイアウト/05_Flexで子の位置を揃える.md": "a6c8d5697c1fa624d16ac086361bbe248807459d783cb7484543268e544b8fe1",
+    "02_基礎/01_HTML・CSS/09_レイアウト/06_Flexで固定幅と可変幅を組み合わせる.md": "11ac223bed03a3d1c2c8cb215e0c6052cd20ff58d7d23a1be16ea4cb41a3ea84",
+    "02_基礎/01_HTML・CSS/09_レイアウト/10_コンテンツの最大幅と左右余白を作る.md": "d7a0a80ffda90285a8a190fa36f1c5957cc531cb1cc1512f5b676bd4d73f262c",
+    "02_基礎/01_HTML・CSS/09_レイアウト/11_配置が成立する幅でブレークポイントを決める.md": "710750bd85e34451db71ba3374f468c79105c35e5db1888beb0fd24a07cea759",
+    "02_基礎/01_HTML・CSS/09_レイアウト/12_gapとmarginとpaddingを使い分ける.md": "ed85271cbb770d478319b8dd544cb13ba98d63189741a1c7dd03a88200f9eece",
+    "02_基礎/01_HTML・CSS/09_レイアウト/13_marginの相殺が起きる場所を確認する.md": "0d79d15a0894e2e185949061c612060715532daef1d1d9b607f2be3035f5ab90",
+    "02_基礎/01_HTML・CSS/09_レイアウト/Grid/01_Gridはどんなレイアウトで使う.md": "35eeba9c58a8773b602e5c7158f04285998bd2bbfe9c7f2c21e0452b61f4ba5d",
+    "02_基礎/01_HTML・CSS/09_レイアウト/Grid/02_子要素を2列・3列に並べるには.md": "21de0c95b704e20d9ae566d0bc0ff4a7cb72fe2c18c0a2d74c307b53e6cd210e",
+    "02_基礎/01_HTML・CSS/09_レイアウト/Grid/03_frで列幅はどう決まる.md": "0b2cf77db1ed63bdffd5349ddead43d65c727e1324e39a1cce7b20d3a44237e3",
+    "02_基礎/01_HTML・CSS/09_レイアウト/Grid/04_1frなのに列が広がるのはなぜ.md": "d9f70554040d531619d87d33360f1f77abbe45257a5a5c22dc3cae58a2668a69",
+    "02_基礎/01_HTML・CSS/09_レイアウト/Grid/05_列数を自動変更するには.md": "f8c60600e34b7bb66bf7a2c80ae6f3b6a9363dd3e1a49d8b2fec7a2acb6c0088",
+    "02_基礎/01_HTML・CSS/09_レイアウト/Grid/06_auto-fitとauto-fillの違い.md": "68060109103681a50e9f66c33359b45e5a9376d96791a18ec3f75d1b84433171",
+    "02_基礎/01_HTML・CSS/09_レイアウト/Grid/07_行の高さはどう決まる.md": "a2d935293cacbed250035fc195e6814e9fdebe5c64abb8b239195a9262023de8",
+    "02_基礎/01_HTML・CSS/09_レイアウト/Grid/08_子要素を指定位置に配置するには.md": "ab391363b08466309dc974549840bf6d0ce1f998eaa65570aaff92e127914a54",
+    "02_基礎/01_HTML・CSS/09_レイアウト/Grid/09_子要素を上下左右に揃えるには.md": "d35af50dc56e285e8034e17a7648edb3182de89c7176ab4d916221c1a2712bf2",
+    "02_基礎/01_HTML・CSS/09_レイアウト/Grid/10_列幅と子要素のサイズの違い.md": "916886d620e22b63bde18df1672bb8414825d1ae6a8351154ad147c9a457658d",
+    "02_基礎/01_HTML・CSS/09_レイアウト/Grid/11_Gridが想定どおりに並ばない原因.md": "92832f078354992441865e4c5d2d089443b1a63f9187380daa76cf8826b78f4e",
     "02_基礎/01_HTML・CSS/10_画像と背景/01_画像と背景で迷ったときの確認順.md": "742b7d50dfc073209c097debaac75778286c052a9fec3d35ce63abcb81d1d1cb",
     "02_基礎/01_HTML・CSS/10_画像と背景/02_imgとbackground-imageを選ぶ.md": "e7552b98565d378d30d634b2b4ec4a2fbe165960dd4c3477c5b3f605037bf875",
     "02_基礎/01_HTML・CSS/10_画像と背景/03_背景画像を描くboxを確認する.md": "a029608506b18126993fbdbd4f4ec0e5e3fa7cedbbf5e4e32520ba9a5d5a5e19",
@@ -142,7 +140,7 @@
     "02_基礎/01_HTML・CSS/11_メディアの表示枠と重ね配置/07_動画を自然比率か比率枠で表示する.md": "f79a191f8ffcb7ab19808b90b0f47ff8a109563c33a7c1b2a7a437277682025d",
     "02_基礎/01_HTML・CSS/11_メディアの表示枠と重ね配置/08_動画と重ねる部品の枠を分ける.md": "583a2afb09fb020f6b4a90a464bb53511ccf456dfeaa7e58be9cd9e98711d9c8",
     "02_基礎/01_HTML・CSS/12_レスポンシブ画像設計/01_レスポンシブ画像設計の選び方.md": "8b38d57701e5bb6e5b54e8edd2c24171e5a5c5abd0c4e918e6f863895007b6e0",
-    "02_基礎/01_HTML・CSS/12_レスポンシブ画像設計/02_画像全体を自然比率で表示する.md": "3d2ec6eb14e28777e75965c9f668671039ac418b2951a1867b39f78c2d55af7c",
+    "02_基礎/01_HTML・CSS/12_レスポンシブ画像設計/02_画像全体を自然比率で表示する.md": "72140406ee2e72760d32e4344c92535b88b191a6320bba28c62dfc15b8e2c8c6",
     "02_基礎/01_HTML・CSS/12_レスポンシブ画像設計/03_決めた表示領域に画像を合わせる.md": "779c4d1c7a6efc4ceaa54217555d008415b670c353c4f5e9aa073adc4a01eca8",
     "02_基礎/01_HTML・CSS/12_レスポンシブ画像設計/04_比率で表示領域を作る.md": "c61968ee34f37033c5963411e2b41ccf71a3fe2747c0d8dbdac48fbc63fd3b69",
     "02_基礎/01_HTML・CSS/12_レスポンシブ画像設計/05_高さで表示領域を作る.md": "b220f29d570ea69258676637cca7f3723a1de801ea0711ab710db9139cac7380",
@@ -154,7 +152,7 @@
     "02_基礎/01_HTML・CSS/13_表示制御/04_display-revertの戻り先を確認する.md": "644abef66187e6bbb6ba09d69b89d3ab4563270105ad3048ef5dd372754d6df8",
     "02_基礎/01_HTML・CSS/13_表示制御/05_表示後もFlexとGridを保つ方法を選ぶ.md": "534408fe1e5da36ecb0ac53c0dad0a67a1c955c136b7dd50858a977850fd06ef",
     "02_基礎/01_HTML・CSS/13_表示制御/06_SPとPCで重複する情報を揃える.md": "0b48a3f745bf29141ac9dcf6447c55545cee736036c742072144ad2eaffafcd7",
-    "02_基礎/01_HTML・CSS/13_表示制御/07_表示条件とレイアウトを分ける.md": "a3bcb222155a088b112b75f2f4f884aced722bf9fb937f317ed68ee9e02d5df6",
+    "02_基礎/01_HTML・CSS/13_表示制御/07_表示条件とレイアウトを分ける.md": "89cac0a53a7a385c5fe5e2f97f50fba4be7a534ad7665fccf3b21220de0ad127",
     "02_基礎/01_HTML・CSS/13_表示制御/08_レスポンシブ表示と開閉状態を分ける.md": "be97f69b96cb54b0652991bebd85a8ace9d26a6dbdad05b52cf851d7e99c81cf",
     "02_基礎/01_HTML・CSS/14_セレクタと構造依存/01_セレクタと構造依存で迷ったときの確認順.md": "f1ec46b73040fb5cc8859a8def1047908a5c8e596ab35921a17e9e6a7ac1e8a1",
     "02_基礎/01_HTML・CSS/14_セレクタと構造依存/02_セレクタが選ぶ要素を確認する.md": "de71b24fdde087d46a5ad11e8315e85cbd902f1ab8ede22f92eb67d2075b4e47",
@@ -168,7 +166,7 @@
     "02_基礎/01_HTML・CSS/15_UI部品の実装判断/03_反復一覧の間隔と区切り線を分ける.md": "7e3819d3c0fe3b81f4011098d71f988b0bb6be37b280e96a399fb20b77375848",
     "02_基礎/01_HTML・CSS/15_UI部品の実装判断/04_ステップ番号をHTMLとCSSで分ける.md": "4527f68a423e5344cd690ea75e81b62debbbf12e6afabb93fde4e6586ba963e7",
     "02_基礎/01_HTML・CSS/15_UI部品の実装判断/05_バナーの実装方法を選ぶ.md": "68bdad0f014d6e78251f39823e28a52b11cbe2e5076018dfadca91fb90758f2c",
-    "02_基礎/01_HTML・CSS/15_UI部品の実装判断/06_カード一覧とカード内部の責務を分ける.md": "e18723cf31e4fab9742ecb156594b1a2c53e9ca633cda3c404253f93a656430a",
+    "02_基礎/01_HTML・CSS/15_UI部品の実装判断/06_カード一覧とカード内部の責務を分ける.md": "f555dd4353667a94c2ab84a4d96000f2a5cb8dcdf5a8a83b87343f73a87c7727",
     "02_基礎/01_HTML・CSS/15_UI部品の実装判断/07_カードの可変本文と下寄せ要素を両立する.md": "e062f3f81d92e9e0e22d7d1f4301319a06071f3e0a3e0b0da39d7ae7d58c3f4b",
     "02_基礎/01_HTML・CSS/15_UI部品の実装判断/08_人物写真を同じ枠へ収める.md": "2e780ca0792a68257d3f9d3b670ae30449bc88e2676abc91843a324c9f045733",
     "02_基礎/01_HTML・CSS/15_UI部品の実装判断/09_CTAとナビリンクの操作範囲を作る.md": "40346832ff76fd6c8de478d65c0b7b04d866e037f28b9dfb56d666e3e235b986",
@@ -188,12 +186,12 @@
     "03_詳細/01_HTML・CSS/02_意味構造とアクセシビリティツリー.md": "4b7fb0a286fe4cb4afb33739f8c2aa2e889897c70dc8e13366a9c2c8f5285086",
     "03_詳細/01_HTML・CSS/03_transform後の外接矩形.md": "9a6ba25592fc23ddbd369c6923a0d9dd6a50da8f96370d2db51769e4ea5c74b0",
     "03_詳細/01_HTML・CSS/04_insetで広がる条件を調べる.md": "6b6a84cea4d7f09f4c9e5bfcf584befcc7d08a696831ef8b251c16375fd66756",
-    "03_詳細/01_HTML・CSS/06_floatで文章を図版に回り込ませる.md": "863dcaf9759f101d0101705f8596febf602e420445208ef4cfcc58b91db1faec",
+    "03_詳細/01_HTML・CSS/06_floatで文章を図版に回り込ませる.md": "bf903e69a66b0fa52bf8025a45f3fda881960edd69056b946a0106a06c2529de",
     "03_詳細/01_HTML・CSS/07_absoluteの子がFlexで中央に見える条件を調べる.md": "85b08bd020bc0e4ac6c17a2ebaf8e4fbf21fab80871b18e7bacc97d250fd5ee8",
-    "03_詳細/01_HTML・CSS/09_レイアウト/Grid/04_可変列の幅が0になる条件.md": "ca28bb32e7cb04088b62ecacc2518237b0b5962589fb3eed143c94bcfe78888e",
-    "03_詳細/01_HTML・CSS/09_レイアウト/Grid/12_入れ子のGridで親子の列・行を揃えるには.md": "da6262f9b8c991b44e5ede444905990548d4075738245f6808687b5502ecac69",
+    "03_詳細/01_HTML・CSS/09_レイアウト/Grid/04_可変列の幅が0になる条件.md": "4baa13acafdd8f249e765420c271f8760ac5c19845ad888442f830ef52d67e79",
+    "03_詳細/01_HTML・CSS/09_レイアウト/Grid/12_入れ子のGridで親子の列・行を揃えるには.md": "8f6a8c9f530c4dee56f37d40315d4f27c431800a2f220b7d3ce6e627094be407",
     "05_参照/CSSOM.md": "05c218a85f7bfa0f313854b69eb5b233fafbfd3612b69a2bbd79c877a9cf5dbc",
-    "05_参照/CSSのサイズ指定と関数.md": "8e084bb59631622e5e54a9989d758bc75a0fda310094b5aa42c0a1686aa63ece",
+    "05_参照/CSSのサイズ指定と関数.md": "332ca44045fdfd952e75cb12867d26e95ab40e9b1fb17e57056757405640222b",
     "05_参照/CSS適用境界.md": "766d3d2aa81adf6965f6a7081c6d39f88461d5e5b4a01a3c461c5ed8578b5b3a",
     "05_参照/DOM.md": "d0a9dc85706e7a0a84d13d0769e0f7c88c524c508a562f792c7f7f725fdc39d0",
     "05_参照/アートディレクション.md": "adef6d213cc03c69d32de90903d6aa4f89c2ed06f896463189c183133d6e943c",
@@ -201,7 +199,7 @@
     "05_参照/テキストノード.md": "7f1676a861da3331eb84e33ee390a407778748e52c61cc696836bf7d6492735e",
     "05_参照/テキストノードとCSS適用境界.md": "ef7f247d8de7c79897f1144b02e19e7bcbb4befe8073325939bacf4d8ec8c817",
     "05_参照/ペイン.md": "e069e9436157161ea28ab84f5dc1a70f553bf8278e687c06ac69f2a2ae944bf2",
-    "05_参照/内容由来のサイズと自動最小サイズ.md": "8a6bcbe1d5914bff673419c9a95f3cf86cddf68c5c08c6ac4fa5a00d12301118",
+    "05_参照/内容由来のサイズと自動最小サイズ.md": "b8daa9dc94621d5ef5ba7e62f5d1c24c4a4b2ee20e52d0434cf499243777b1fc",
     "05_参照/状態変化.md": "17fa02da199423cba915a9db535e91e36da4361bce7904d470b5cc0ba31dc170",
     "05_参照/状態変化（DOM→CSSOM→Layout→Paint）.md": "86141e51cf9274c8366e3f7f96469e5d1ef62ab4c8fea20889147d0ab3ce25b3",
     "05_参照/置換要素.md": "5a6cffd08a8593f818bc602b50ba9abdc13b84ce627c00c008dcc670aa66e019",
@@ -219,55 +217,54 @@
     "img/html-css/01_05_05_親子のマージン相殺_paddingとborderなし.svg": "7d2aa2f868cb45dc652598e6150ca6d8b88b0cec14d61cbaf5ec3e26a2a96371",
     "img/html-css/01_05_06_マージン相殺_FlexとGrid.svg": "ecab4f3d81a42a01cba163b1bea84f4dba6963e3e68d45f0a7f8b2c1ef118a16",
     "img/html-css/01_05_06_マージン相殺_通常のブロック配置.svg": "450ca9c68406e878aef5bcd7a5157d37f3f07b1ed87838ff3f953f02d7485807",
-    "img/html-css/01_05_07_上下の負のmargin_上marginのみ.svg": "9cdb508f0309100d2c78b3e62a4bd00cececd63e9faea443de5b887c43e4929e",
-    "img/html-css/01_05_07_上下の負のmargin_上下指定.svg": "0b394cee4792fa97facf92fecb06354a316830bac6edea445ed715b37b65ced1",
+    "img/html-css/01_05_07_上下の負のmargin_上marginのみ.svg": "9193a63ccbb82e031dd67e4201a7fbd6b96b3bd083fc346a7ee51636a1866a2c",
+    "img/html-css/01_05_07_上下の負のmargin_上下指定.svg": "ea88e9573e3caa0ff2a91a8a7b4b64b45c5a8e88c526e2af83ac871d280d6054",
     "img/html-css/01_05_07_上下の負のmargin_指定前.svg": "9fcacb9a3f98514c0bb2d87234155d0a9e2fa9089b5af36cc8a427a3e8ccc73a",
-    "img/html-css/01_05_07_負のmargin-bottom_指定後.svg": "1352ffea4a4acaca688741f8bc2f3d8004201864be3ce36c44c6158c92dd1886",
+    "img/html-css/01_05_07_負のmargin-bottom_指定後.svg": "8ac2ccc6119564663a9443a8b7648ef8e2cf10372f0accf78ee0ddb1391cb984",
     "img/html-css/01_05_07_負のmargin_指定前.svg": "54b9717a569f4b7f8fbaab571e70456ee41a2d4b96731bac836eac8d32c98111",
-    "img/html-css/01_05_07_負のmargin_指定後.svg": "6d3b3cfff14455f50b4df6a3c7918fd2667d92675280cb86a8e49c1ba7e76ed6",
+    "img/html-css/01_05_07_負のmargin_指定後.svg": "c8d519f9029a98cdeb014fc30353d0c28046a3e077d2165e8affe7c35da40733",
     "img/html-css/01_05_08_正のmarginと累積するY座標.svg": "5ce4ec1b7a5af3b8adc05b9ac24caf5966ceacf65bfd6ac27830529bc56503ae",
-    "img/html-css/01_05_09_正と負のmarginの相殺.svg": "ecd0e1062f8896cdab764698c88270d0c152cf4d46142c7036e30fe3be22cbf3",
-    "img/html-css/01_05_10_負のmargin同士の相殺.svg": "bdf68138c5dfceb6b3735626fa08fe9559a769708b0923acccc1569825058d0e",
+    "img/html-css/01_05_09_正と負のmarginの相殺.svg": "f5dba178f8c1c6a92ab8082ee09d8f3eda49428f113d0766f8e38c827dc816f5",
+    "img/html-css/01_05_10_負のmargin同士の相殺.svg": "a4ad23b7f4031a3fe0f8ddcd07c9b8ab3639bcf7e4549c84af99b445e13a0b5a",
     "img/html-css/01_05_11_paddingと負のmargin_前の要素のmargin.svg": "5c2cdd1b9621be719fbdb471df1df3906df90a840c788138df311297cb1d706d",
     "img/html-css/01_05_11_paddingと負のmargin_親のpadding.svg": "b736c4ab015d113c1030acb1d60c69be1e6b3462ae6b9916480e3cc1acbe5561",
-    "img/html-css/01_05_11_paddingと負のmargin_負のmargin適用後.svg": "97e157b20776c55dc7afe1978ec8090f462d4f0fedb5738cc2318acb120c1dcb",
+    "img/html-css/01_05_11_paddingと負のmargin_負のmargin適用後.svg": "0923fa010cb16397bb3c0bedd40f925fd41d30cf374e01d557b896b5b468eea0",
     "img/html-css/01_08_03_疑似要素の行内配置とFlex.svg": "2879967ab98ac8f9b695b71812df4a36dc827b107cdc7ab63c2005305533fde5",
     "img/html-css/01_08_04_absoluteの疑似要素の配置.svg": "b5a565aaee69b3f616e1b13df6a2bdddf4e981d4280e233565f7cb38eba1845b",
-    "img/html-css/01_08_04_afterのinline-blockとabsoluteの配置基準.svg": "fd54bcb821f1601a72bb36056911ea510bfb133da1a81fa6f6e5c9fbf106ec58",
+    "img/html-css/01_08_04_afterのinline-blockとabsoluteの配置基準.svg": "33b5d7c6181a627dc2156400d717859ca61205f94097e346bf3d4c3644aadcc4",
     "img/html-css/01_11_01_画像の右下と左上の配置.svg": "c81982d3b4174cc26bd4e498d5065cc7a24ffaae0d7a561038f99d617108c159",
     "img/html-css/02_05_03_DevTools_ボックスモデル.png": "2a96e72e6dbf747337c75aef0dfa862d9070a67c5c276e9d3828db4da281b981",
     "img/html-css/02_06_01_DevTools_Stylesペイン.png": "51692ca5ec229e1510ceecf4856eed8f8696e41501ec8ce8eb1c6a15c4fce0b6",
     "img/html-css/02_07_04_DevTools_レンダリングフォント.png": "7f55615a965b98b6ed2f3a7fe463267a562b4e6ca4996168b305a4612a77ed5c",
-    "img/html-css/02_09_01_FlexとGridの配置比較.svg": "780494284b982d8863988f9e9c8406d3b29917d5caa9bd816a93d907bab01d93",
-    "img/html-css/02_09_02_2列から3列にする.svg": "8db1450b6b5ab505e7060a3e5e59f20622919d53f0f807e91c4482c521dce9a4",
-    "img/html-css/02_09_02_列と行の間を空ける.svg": "eaa4667814767c5e40ae0180ff278adf018a2b958fa1c17437bc4edd8c658523",
-    "img/html-css/02_09_02_列を2本にする.svg": "f66e049a5b3d42fff8fda32ac09243a57c78493d59a88bd5a81cc50f58d491f7",
-    "img/html-css/02_09_02_行間だけを変える.svg": "1c821f4834d902fce79fe1ab9b6b9ec2fa8805f8f92b6c44858a7b21bdbf0775",
-    "img/html-css/02_09_02_親をGridにする.svg": "40ce39e0ede75c39ab39944716af0b9354d4f4756a3ecfff70c50be6ea4974f9",
-    "img/html-css/02_09_03_frによる列幅の配分比較.svg": "d42e61112217370cee27d0cae5f3df62eedfa0877bc1088482d11cc1404c0d0a",
-    "img/html-css/02_09_04_minmaxで列の下限を0にする.svg": "3ab8e2eef1d28c3483de3939ba5570cba9eafa4be9b1e7380a599d18f50f8e65",
-    "img/html-css/02_09_04_内容の最小幅と列の拡大.svg": "81df9fd7faef06ce175c9dfc036172e4d80a3d0340d6ba1f073560c1be9629c7",
-    "img/html-css/02_09_04_列幅が0になる条件.svg": "b13a5da080be4a03b75a0473eebc151765666224827086870a18e13167494eff",
-    "img/html-css/02_09_05_2列から1列へ切り替わる.svg": "0b1f5debe9efe9b16ab1bfe81d2ff988954b64d4bbaf45f3409f3affcd0df47c",
-    "img/html-css/02_09_05_親幅と自動列数の変化.svg": "3031873456186d96625fe5bde0476ef5e8a7fd8dc370624626f0cd1e81968cb1",
-    "img/html-css/02_09_06_auto-fitとauto-fillの空き列比較.svg": "04cc26729add29ebf4495e80af47f5a953840f9600626dd4029593a965c3f411",
-    "img/html-css/02_09_07_1行目と3行目の高さを指定する.svg": "65909881384cb2586c3ac71f1e6bdf16cdee2ae2c71c8969a22569a0f9629532",
-    "img/html-css/02_09_07_autoから固定高へ変える.svg": "8a7fd89ace139cb6351ad4dbccc95bbd0941545f83609fe8fe1e206caf0c6c55",
-    "img/html-css/02_09_07_固定高から最低高へ変える.svg": "f563f6ea3dcbc274336ddfc836e402c79786f6f204c3048cb2cfdf132ad1606f",
-    "img/html-css/02_09_07_明示した行と追加された行の高さ.svg": "e9048425bd66bcfba518f6dab067f90ac65b8bd0d2a2307a9e49a037be41a6ac",
-    "img/html-css/02_09_08_列線を指定して2列目に置く.svg": "e44a065ed33326bee5944b01cdcb0c055287a3a60eaa9cacb7d85118c93b1a04",
-    "img/html-css/02_09_08_名前付き領域と子の対応.svg": "256f664c98a94092b462b3208c8e0fa2996e96e93b64859b4d986f227b036d66",
-    "img/html-css/02_09_08_子を2列分にまたがせる.svg": "9f4d8167d067b3bb93690c96eb31c41104349823709b4280dc45e20f80cd6940",
-    "img/html-css/02_09_09_子を横方向へ揃える.svg": "8e2e5f248cff343eeaad05a4d1c1f1d9fd4fdc7b3825a697e1d902d1e2582ad6",
-    "img/html-css/02_09_09_子を縦方向へ揃える.svg": "1d05e5a81b82d9da7ada0728afd43fa03a2af4ffbc2c5567a5b4d01fef00709b",
-    "img/html-css/02_09_10_列の枠と子の幅の違い.svg": "1bc195fd57f62d956f2ceeba86297183583d42c1ac25e4ef2270b595b2e46b3a",
-    "img/html-css/02_09_10_列幅を保って文字を折り返す.svg": "8de00146edebfb361bfdce89841de795f20a6d00fc9ac414f92d173c2b695a88",
-    "img/html-css/02_09_11_columnで列を追加する.svg": "e86f85e4f07076d75d24ac8f4c8fd2d0b7a8dbb3bfe5252df70d80c8d1158b7b",
-    "img/html-css/02_09_11_範囲外の指定で暗黙列を作る.svg": "70e5f5be2e4e8905c12edd94fac534f4eec62e8d100ae76349ada4f7cb5f7c41",
-    "img/html-css/02_09_11_自動配置の方向と追加トラック.svg": "90a40a80f8a8734c5510ce25bc089f261c522b720e39d4f27404647d8ff63953",
-    "img/html-css/02_09_12_gapとpaddingとmarginの場所.svg": "3af143cfcef470c8f84ddfe12450f59bb4f2fcc0721aec82c3f816b6c0c2aeee",
+    "img/html-css/02_09_01_FlexとGridの配置比較.svg": "9335d1eaf380ecb0751ec3fbd0949cfcbe78ad9a25916d84bfc1054db3dc7b55",
+    "img/html-css/02_09_02_2列から3列にする.svg": "78eb2c0960384be20f3b1384fd5be95e51e46bfe02e08524dc6740e9ea3e9920",
+    "img/html-css/02_09_02_列と行の間を空ける.svg": "1ace0b9c5b43fda1123492c5eb5e0ae495453a0939af76830f9ad98c71d92bca",
+    "img/html-css/02_09_02_列を2本にする.svg": "c25ab48e12782377fa6e178e13b2dd1a43060f165563931ef4e6d3dfdb9832e7",
+    "img/html-css/02_09_02_行間だけを変える.svg": "9eb660df33db5f767507ab308a7c93c378e8b920a5c7a37a1e075fcee28c671e",
+    "img/html-css/02_09_02_親をGridにする.svg": "95e331fbb4a09b2d6968be0cd26d3c7a0f1d1e0ad03148a76a8ce1ec5339858b",
+    "img/html-css/02_09_03_frによる列幅の配分比較.svg": "ca0629714fb42e1246cee68b4f6995a7fbf25b5adf0e5927bc0c03ea0f8b5cef",
+    "img/html-css/02_09_04_minmaxで列の下限を0にする.svg": "84ea9773012aca2c1f80a75f90eaf83662e03279a43a0bfee9189a3782c9da65",
+    "img/html-css/02_09_04_内容の最小幅と列の拡大.svg": "5f795efe63a4e22742f89680f36eaf299ecfe15b0ddf57434617fa5e51af2ced",
+    "img/html-css/02_09_04_列幅が0になる条件.svg": "ce3996048eb57868e0bfd65d44ef8ae0ad697e21ebe19d272878994905c0b070",
+    "img/html-css/02_09_05_2列から1列へ切り替わる.svg": "230c390308809a9d44728b0d0d535d9558131da234dff9eace7f8a87839f8dc4",
+    "img/html-css/02_09_05_親幅と自動列数の変化.svg": "72446496d18d919c724d2dd410f5009128e651d04e952b903729e0e33bece987",
+    "img/html-css/02_09_06_auto-fitとauto-fillの空き列比較.svg": "75bbf19ec6de6394bd00639b20b1782e4c39094d62bc546dcaa284214b4f47fd",
+    "img/html-css/02_09_07_autoから固定高へ変える.svg": "e635fb0461f17a7e0a8a93895f13c21c9bd21c0e06717f12e51d6a1527b6454d",
+    "img/html-css/02_09_07_固定高から最低高へ変える.svg": "7426bc2a14aecaec8565b49deb85192d7ee002dbe4c5ff121bf82707739649e8",
+    "img/html-css/02_09_07_明示した行と追加された行の高さ.svg": "d0d9c34b69927b5395428328e6834aa928b9ae912fd784f818bea1a67727ab0c",
+    "img/html-css/02_09_08_列線を指定して2列目に置く.svg": "193a1014f2fdadb3abe4f772801604f1ec56fe3ebf7e489c9566bd4f7e24673d",
+    "img/html-css/02_09_08_名前付き領域と子の対応.svg": "269610e7282561ffc671db89bf02f2ea3ef4c6a4a1b8b4eb8d01f63c5c29635c",
+    "img/html-css/02_09_08_子を2列分にまたがせる.svg": "b2ff94928aa8a6118d6e567aaa918592a8bd93369613664754ad23be5a4548ac",
+    "img/html-css/02_09_09_子を横方向へ揃える.svg": "0d1e1f2cd3f49c19b7da637a35fd19cb0b50c56e14ffd26b9b75b1e8b1369e96",
+    "img/html-css/02_09_09_子を縦方向へ揃える.svg": "68a9dd0714196f882285aa259fc5b73461df69ed98aae51cf767834593e8a46d",
+    "img/html-css/02_09_10_列の枠と子の幅の違い.svg": "911b6e93673dc8fead243f8a92d46ebbb85d24c33438903ddc809c4823a90e0f",
+    "img/html-css/02_09_10_列幅を保って文字を折り返す.svg": "41efb6c57ec9a4f6270bb7f1c37703f5e25ca20a6280841f5b34b5313105c6a2",
+    "img/html-css/02_09_11_columnで列を追加する.svg": "aa6b82896b8b20ddeef226b353fbf7c0a498c60344649c5ccf8547e0ce74cd96",
+    "img/html-css/02_09_11_範囲外の指定で暗黙列を作る.svg": "ae2c9eb79c288075044b66f398a39759cc3934b06aeafef4e764c3af01b93c78",
+    "img/html-css/02_09_11_自動配置の方向と追加トラック.svg": "e13836eaf6b00c60fb75235c0f68f16788c55c3b71d39e56377ab8669cc5f3b4",
+    "img/html-css/02_09_12_gapとpaddingとmarginの場所.svg": "87cb2a65c31615a24374c70509ae9565da465cd2ae7b6760e2263e280eaacfad",
     "img/html-css/02_12_05_高さ固定の表示枠による切り抜き.svg": "59e988565a54eaca310e238db9f125128adde1c2fdd86e2e5a03a7f9399c42ca",
-    "img/html-css/03_09_12_subgridで親の3行を共有する.svg": "207dc915d64cfe1325953db4762dd8a86bdf11ed6f9cd21445e8f4f1a985bec4",
+    "img/html-css/03_09_12_subgridで親の3行を共有する.svg": "f59d429820e90aafec8431267f9a0e82837fda5d43bd2ca8b35d67544866ad11",
     "index.md": "2b08d5a338a2ed8541fa2135541df540147437a37d13db9aadaad0615bdd31a9"
   },
   "linked_assets": [
@@ -329,12 +326,12 @@
       "url": "../../../06_%E7%96%91%E5%95%8F/01_HTML%E3%83%BBCSS/08_%E3%82%A4%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%81%A8%E8%A1%8C%E3%81%AE%E4%BB%95%E7%B5%84%E3%81%BF/%E7%96%91%E4%BC%BC%E8%A6%81%E7%B4%A0%E3%81%AEdisplay%E3%81%A8%E9%85%8D%E7%BD%AE%E5%9F%BA%E6%BA%96%E3%81%AF%E3%81%A9%E3%81%86%E9%81%95%E3%81%86%E3%81%AE%E3%81%8B.md"
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/02_配置の基本/06_gapとmarginとpaddingを使い分ける.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/12_gapとmarginとpaddingを使い分ける.md",
       "target": "02_基礎/07_設計/CSS設計/04_レイアウトと余白.md",
-      "url": "../../../07_%E8%A8%AD%E8%A8%88/CSS%E8%A8%AD%E8%A8%88/04_%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%A8%E4%BD%99%E7%99%BD.md"
+      "url": "../../07_%E8%A8%AD%E8%A8%88/CSS%E8%A8%AD%E8%A8%88/04_%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%81%A8%E4%BD%99%E7%99%BD.md"
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/04_1frなのに列が広がるのはなぜ.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/Grid/04_1frなのに列が広がるのはなぜ.md",
       "target": "06_疑問/01_HTML・CSS/09_レイアウト/minmaxの0という値より先に何を理解すればよいのか.md",
       "url": "../../../../06_%E7%96%91%E5%95%8F/01_HTML%E3%83%BBCSS/09_%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88/minmax%E3%81%AE0%E3%81%A8%E3%81%84%E3%81%86%E5%80%A4%E3%82%88%E3%82%8A%E5%85%88%E3%81%AB%E4%BD%95%E3%82%92%E7%90%86%E8%A7%A3%E3%81%99%E3%82%8C%E3%81%B0%E3%82%88%E3%81%84%E3%81%AE%E3%81%8B.md"
     },
@@ -976,213 +973,213 @@
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/02_配置の基本/02_通常フローを基準にする.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/02_通常フローを基準にする.md",
       "url": "https://www.w3.org/TR/CSS22/visuren.html#normal-flow",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/02_配置の基本/02_通常フローを基準にする.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/02_通常フローを基準にする.md",
       "url": "https://www.w3.org/TR/css-display-3/",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/02_配置の基本/03_FlexとGridで直下の子を並べる.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/03_FlexとGridで直下の子を並べる.md",
       "url": "https://www.w3.org/TR/css-flexbox-1/",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/02_配置の基本/03_FlexとGridで直下の子を並べる.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/03_FlexとGridで直下の子を並べる.md",
       "url": "https://www.w3.org/TR/css-grid-2/",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/02_配置の基本/04_親子のレイアウト文脈を区別する.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_親子のレイアウト文脈を区別する.md",
       "url": "https://www.w3.org/TR/css-display-3/",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/02_配置の基本/04_親子のレイアウト文脈を区別する.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_親子のレイアウト文脈を区別する.md",
       "url": "https://www.w3.org/TR/css-flexbox-1/#flex-items",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/02_配置の基本/04_親子のレイアウト文脈を区別する.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_親子のレイアウト文脈を区別する.md",
       "url": "https://www.w3.org/TR/css-grid-2/#grid-items",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/02_配置の基本/05_コンテンツの最大幅と左右余白を作る.md",
-      "url": "https://www.w3.org/TR/css-sizing-3/",
-      "embedded": false
-    },
-    {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/02_配置の基本/05_コンテンツの最大幅と左右余白を作る.md",
-      "url": "https://www.w3.org/TR/css-values-4/#comp-func",
-      "embedded": false
-    },
-    {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/02_配置の基本/07_marginの相殺が起きる場所を確認する.md",
-      "url": "https://www.w3.org/TR/CSS22/box.html#collapsing-margins",
-      "embedded": false
-    },
-    {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/02_配置の基本/07_marginの相殺が起きる場所を確認する.md",
-      "url": "https://www.w3.org/TR/css-display-3/",
-      "embedded": false
-    },
-    {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/03_Flex/02_Flexで子の位置を揃える.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/05_Flexで子の位置を揃える.md",
       "url": "https://www.w3.org/TR/css-flexbox-1/#alignment",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/03_Flex/02_Flexで子の位置を揃える.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/05_Flexで子の位置を揃える.md",
       "url": "https://www.w3.org/TR/css-align-3/",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/03_Flex/03_Flexで固定幅と可変幅を組み合わせる.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/06_Flexで固定幅と可変幅を組み合わせる.md",
       "url": "https://www.w3.org/TR/css-flexbox-1/#flexibility",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/03_Flex/03_Flexで固定幅と可変幅を組み合わせる.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/06_Flexで固定幅と可変幅を組み合わせる.md",
       "url": "https://www.w3.org/TR/css-flexbox-1/#min-size-auto",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/01_Gridはどんなレイアウトで使う.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/10_コンテンツの最大幅と左右余白を作る.md",
+      "url": "https://www.w3.org/TR/css-sizing-3/",
+      "embedded": false
+    },
+    {
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/10_コンテンツの最大幅と左右余白を作る.md",
+      "url": "https://www.w3.org/TR/css-values-4/#comp-func",
+      "embedded": false
+    },
+    {
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/11_配置が成立する幅でブレークポイントを決める.md",
+      "url": "https://www.w3.org/TR/mediaqueries-5/#width",
+      "embedded": false
+    },
+    {
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/13_marginの相殺が起きる場所を確認する.md",
+      "url": "https://www.w3.org/TR/CSS22/box.html#collapsing-margins",
+      "embedded": false
+    },
+    {
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/13_marginの相殺が起きる場所を確認する.md",
+      "url": "https://www.w3.org/TR/css-display-3/",
+      "embedded": false
+    },
+    {
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/Grid/01_Gridはどんなレイアウトで使う.md",
       "url": "https://developer.mozilla.org/ja/docs/Web/CSS/Guides/Grid_layout",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/01_Gridはどんなレイアウトで使う.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/Grid/01_Gridはどんなレイアウトで使う.md",
       "url": "https://developer.mozilla.org/ja/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/01_Gridはどんなレイアウトで使う.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/Grid/01_Gridはどんなレイアウトで使う.md",
       "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Relationship_with_other_layout_methods",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/02_子要素を2列・3列に並べるには.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/Grid/02_子要素を2列・3列に並べるには.md",
       "url": "https://www.w3.org/TR/css-grid-2/#track-sizing",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/02_子要素を2列・3列に並べるには.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/Grid/02_子要素を2列・3列に並べるには.md",
       "url": "https://www.w3.org/TR/css-grid-2/#gutters",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/03_frで列幅はどう決まる.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/Grid/03_frで列幅はどう決まる.md",
       "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-template-columns",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/03_frで列幅はどう決まる.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/Grid/03_frで列幅はどう決まる.md",
       "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/minmax",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/03_frで列幅はどう決まる.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/Grid/03_frで列幅はどう決まる.md",
       "url": "https://www.w3.org/TR/css-grid/",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/04_1frなのに列が広がるのはなぜ.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/Grid/04_1frなのに列が広がるのはなぜ.md",
       "url": "https://www.w3.org/TR/css-grid-2/#track-sizes",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/04_1frなのに列が広がるのはなぜ.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/Grid/04_1frなのに列が広がるのはなぜ.md",
       "url": "https://www.w3.org/TR/css-grid-2/#min-size-auto",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/05_列数を自動変更するには.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/Grid/05_列数を自動変更するには.md",
       "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-template-columns",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/05_列数を自動変更するには.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/Grid/05_列数を自動変更するには.md",
       "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/repeat",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/05_列数を自動変更するには.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/Grid/05_列数を自動変更するには.md",
       "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/minmax",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/06_auto-fitとauto-fillの違い.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/Grid/06_auto-fitとauto-fillの違い.md",
       "url": "https://www.w3.org/TR/css-grid-2/#auto-repeat",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/07_行の高さはどう決まる.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/Grid/07_行の高さはどう決まる.md",
       "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-auto-rows",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/07_行の高さはどう決まる.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/Grid/07_行の高さはどう決まる.md",
       "url": "https://www.w3.org/TR/css-grid-2/#fr-unit",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/08_子要素を指定位置に配置するには.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/Grid/08_子要素を指定位置に配置するには.md",
       "url": "https://www.w3.org/TR/css-grid-2/#placement",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/08_子要素を指定位置に配置するには.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/Grid/08_子要素を指定位置に配置するには.md",
       "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-template-areas",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/09_子要素を上下左右に揃えるには.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/Grid/09_子要素を上下左右に揃えるには.md",
       "url": "https://www.w3.org/TR/css-grid-2/#alignment",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/09_子要素を上下左右に揃えるには.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/Grid/09_子要素を上下左右に揃えるには.md",
       "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/justify-items",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/10_列幅と子要素のサイズの違い.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/Grid/10_列幅と子要素のサイズの違い.md",
       "url": "https://www.w3.org/TR/css-grid-2/#grid-item-sizing",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/10_列幅と子要素のサイズの違い.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/Grid/10_列幅と子要素のサイズの違い.md",
       "url": "https://www.w3.org/TR/css-grid-2/#min-size-auto",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/11_Gridが想定どおりに並ばない原因.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/Grid/11_Gridが想定どおりに並ばない原因.md",
       "url": "https://developer.chrome.com/docs/devtools/css/grid/",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/11_Gridが想定どおりに並ばない原因.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/Grid/11_Gridが想定どおりに並ばない原因.md",
       "url": "https://developer.mozilla.org/ja/docs/Web/CSS/Guides/Grid_layout/Auto-placement",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/11_Gridが想定どおりに並ばない原因.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/Grid/11_Gridが想定どおりに並ばない原因.md",
       "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-auto-flow",
       "embedded": false
     },
     {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/04_Grid/11_Gridが想定どおりに並ばない原因.md",
+      "page": "02_基礎/01_HTML・CSS/09_レイアウト/Grid/11_Gridが想定どおりに並ばない原因.md",
       "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-template-columns",
-      "embedded": false
-    },
-    {
-      "page": "02_基礎/01_HTML・CSS/09_レイアウト/05_配置が成立する幅でブレークポイントを決める.md",
-      "url": "https://www.w3.org/TR/mediaqueries-5/#width",
       "embedded": false
     },
     {
