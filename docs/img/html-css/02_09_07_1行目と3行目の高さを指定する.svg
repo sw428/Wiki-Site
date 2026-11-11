@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="850" viewBox="0 0 640 850" role="img" aria-labelledby="title desc" style="max-width:100%;height:auto">
+<svg xmlns="http://www.w3.org/2000/svg" width="451.76" height="600" viewBox="0 0 640 850" role="img" aria-labelledby="title desc" style="max-width:100%;height:auto">
 <title id="title">1行目と3行目の高さを指定する</title>
 <desc id="desc">2列に子A〜Hを並べる。grid-template-rows: 100px auto 120pxで1〜3行目を明示し、2行目は短い1行の内容とline-height: 40pxにより40pxになる。4行目は自動で追加され、grid-auto-rows: 80pxが適用される。2行目のautoはgrid-auto-rowsの担当ではない。親のheightは指定せず、padding・borderはない。親の内容高さは行高の合計と3か所のgapから430pxになる。親の灰色の実線は説明用の補助線。</desc>
 <metadata id="grid-data">{"type":"static","width":330,"height":430,"rows":[100,40,120,80],"gap":30,"explicitRows":3,"implicitRows":1,"items":[{"id":"A","x":0,"y":0,"w":150,"h":100},{"id":"B","x":180,"y":0,"w":150,"h":100},{"id":"C","x":0,"y":130,"w":150,"h":40},{"id":"D","x":180,"y":130,"w":150,"h":40},{"id":"E","x":0,"y":200,"w":150,"h":120},{"id":"F","x":180,"y":200,"w":150,"h":120},{"id":"G","x":0,"y":350,"w":150,"h":80},{"id":"H","x":180,"y":350,"w":150,"h":80}],"plot":{"x":48,"y":350}}</metadata>

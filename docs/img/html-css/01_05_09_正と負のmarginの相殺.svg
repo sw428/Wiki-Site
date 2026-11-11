@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="666.5" height="760" viewBox="0 0 720 821" preserveAspectRatio="xMidYMin meet" style="max-width:100%;height:auto" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="526.19" height="600" viewBox="0 0 720 821" preserveAspectRatio="xMidYMin meet" style="max-width:100%;height:auto" role="img" aria-labelledby="title desc">
 <title id="title">正と負の上下marginが相殺し、兄弟要素の間隔が30pxになる</title>
 <desc id="desc">通常フローの兄弟ブロック要素で、上下marginが相殺する条件を満たす例。子Aのmargin-bottom: 40pxと子Bのmargin-top: -10pxが相殺し、実際の間隔は40pxから10pxを引いた30pxになる。子Aの下marginだけがある位置から、子Bの負の上marginを適用した位置までを25秒周期で繰り返す。子Aは動かず、子Bが10px上へ詰まる。結果の数値は移動後に表示し、動きを減らす設定では指定後の静止図を表示する。オレンジはmarginを示す説明用の色で、実際の背景色ではない。各段階の説明を表示して2.5秒以上待ち、その後3秒かけて移動する。説明は前の文字を消して0.25秒空白にし、次の文字を0.25秒で表示する。完全に表示してから2.5秒以上待ち、3秒かけて動く。説明は動作中も表示し、各動作の後にも静止時間を追加する。タイトルの直下に、対象を示すセレクタと波括弧で囲んだCSSを、VS CodeのLight+を基に彩度を抑えた構文色で示す。</desc>
 <rect x="0" y="0" width="720" height="821" fill="#ffffff"/>

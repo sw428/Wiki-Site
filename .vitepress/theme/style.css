@@ -39,3 +39,21 @@
   text-decoration: underline dotted;
   text-underline-offset: 4px;
 }
+
+.chapter-sidebar { font-size: 14px; line-height: 1.6; }
+.chapter-sidebar summary { cursor: pointer; padding: 9px 0; font-weight: 600; }
+.chapter-sidebar > .chapter { border-top: 1px solid var(--vp-c-divider); }
+.chapter-children { margin: 0 0 8px 8px; padding-left: 12px; border-left: 1px solid var(--vp-c-divider); }
+.chapter-link { display: block; padding: 6px 0; color: var(--vp-c-text-2); overflow-wrap: anywhere; }
+.chapter-link:hover, .chapter-link.active { color: var(--vp-c-brand-1); }
+.chapter-link.active { font-weight: 600; }
+.collapse-chapters { margin: 8px 0 12px; color: var(--vp-c-brand-1); font-size: 13px; text-decoration: underline; text-underline-offset: 3px; }
+.chapter-sidebar :is(a, button, summary):focus-visible, .animation-player button:focus-visible { outline: 2px solid var(--vp-c-brand-1); outline-offset: 3px; }
+.animation-player { display: block; margin: 24px auto; }
+.animation-drawing { display: block; }
+.animation-player > img { margin: 0 auto; }
+.animation-player.is-ready > img { display: none; }
+.animation-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 12px; }
+.animation-player button { border: 1px solid var(--vp-c-divider); border-radius: 6px; padding: 6px 12px; font: inherit; font-size: 14px; color: var(--vp-c-brand-1); background: var(--vp-c-bg); cursor: pointer; }
+.animation-player button:hover { background: var(--vp-c-brand-soft); }
+.animation-status, .animation-error { color: var(--vp-c-text-2); font-size: 13px; }

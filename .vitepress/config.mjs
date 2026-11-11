@@ -5,11 +5,13 @@ import { fileURLToPath } from 'node:url'
 import manifest from '../sync-manifest.json'
 import { publicLinks } from './public-links.mjs'
 import { slugify } from './slugify.mjs'
+import { displayTitle, displayTitles } from './display-titles.mjs'
+import { animatedImages } from './animated-images.mjs'
 
 const root = fileURLToPath(new URL('../', import.meta.url))
 function pageTitle(rel) {
   const text = readFileSync(path.join(root, 'docs', rel), 'utf8')
-  return (/^#\s+(.+)/m.exec(text)?.[1] || path.posix.basename(rel, '.md')).replaceAll(String.fromCharCode(96), '')
+  return displayTitle((/^#\s+(.+)/m.exec(text)?.[1] || path.posix.basename(rel, '.md')).replaceAll(String.fromCharCode(96), ''))
 }
 function makeSidebar() {
   const tree = {}
@@ -21,8 +23,8 @@ function makeSidebar() {
     node[parts.at(-1)] = rel
   }
   const visit = (node) => Object.entries(node).map(([name, value]) => typeof value === 'string'
-    ? { text: pageTitle(value), link: '/' + value.replace(/\.md$/, '') }
-    : { text: name.replace(/^\d+_/, ''), collapsed: true, items: visit(value) })
+    ? { text: pageTitle(value), link: '/' + value.replace(/\.md$/, '.html') }
+    : { text: displayTitle(name), collapsed: true, items: visit(value) })
   return [{ text: 'ホーム', link: '/' }, ...visit(tree)]
 }
 const base = process.env.SITE_BASE || '/'
@@ -37,7 +39,15 @@ export default defineConfig({
   outDir: 'site',
   cacheDir: '.vitepress/cache',
   appearance: false,
-  vite: { build: { assetsInlineLimit: 0 } },
+  vite: {
+    build: { assetsInlineLimit: 0 },
+    // Keep VitePress mobile navigation; replace only its article tree.
+    resolve: { alias: [{ find: './VPSidebarGroup.vue', replacement: path.join(root, '.vitepress/theme/SidebarGroup.vue') }] }
+  },
+  transformPageData(page) {
+    page.title = displayTitle(page.title)
+    if (page.frontmatter.title) page.frontmatter.title = displayTitle(page.frontmatter.title)
+  },
   cleanUrls: false,
   ignoreDeadLinks: false,
   buildEnd(config) {
@@ -51,7 +61,11 @@ export default defineConfig({
     anchor: { slugify },
     headers: { slugify },
     toc: { slugify },
-    config(md) { md.use(publicLinks, manifest) }
+    config(md) {
+      md.use(publicLinks, manifest)
+      md.use(displayTitles)
+      md.use(animatedImages, manifest, root)
+    }
   },
   themeConfig: {
     siteTitle: 'Web制作・学習Wiki',
