@@ -6,6 +6,7 @@
     "node": ">=22"
   },
   "scripts": {
+    "status": "node scripts/status.mjs",
     "dev": "node scripts/site.mjs dev",
     "sync": "node scripts/site.mjs sync",
     "watch": "node scripts/site.mjs watch",
